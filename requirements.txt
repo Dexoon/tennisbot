@@ -1,0 +1,6 @@
+Django
+django-extensions
+django-webpack-loader
+django-sesame
+python-telegram-bot
+django-environ

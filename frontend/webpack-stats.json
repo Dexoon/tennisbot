@@ -1,0 +1,21 @@
+{
+  "status": "done",
+  "assets": {
+    "index-0fc5758c9a199d71365a.js": {
+      "name": "index-0fc5758c9a199d71365a.js",
+      "path": "/home/ilya/PycharmProjects/tennisbot/frontend/static/index-0fc5758c9a199d71365a.js",
+      "publicPath": "/static/index-0fc5758c9a199d71365a.js"
+    },
+    "index-0fc5758c9a199d71365a.js.LICENSE.txt": {
+      "name": "index-0fc5758c9a199d71365a.js.LICENSE.txt",
+      "path": "/home/ilya/PycharmProjects/tennisbot/frontend/static/index-0fc5758c9a199d71365a.js.LICENSE.txt",
+      "publicPath": "/static/index-0fc5758c9a199d71365a.js.LICENSE.txt"
+    }
+  },
+  "chunks": {
+    "index": [
+      "index-0fc5758c9a199d71365a.js"
+    ]
+  },
+  "publicPath": "/static/"
+}

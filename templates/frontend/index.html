@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    {% load static %}
+    {% load render_bundle from webpack_loader %}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Теннис фэнтези</title>
+    {{ context|json_script:"context" }}
+    <script type="text/javascript">
+        window.context = JSON.parse(document.getElementById('context').textContent);
+        const csrftoken = "{{ csrf_token }}";
+        window.csrftoken = csrftoken;
+        window.user_id = "{{ user.id }}";
+    </script>
+</head>
+<body>
+<div id="root">
+</div>
+</body>
+{% render_bundle 'index' %}
+</html>
